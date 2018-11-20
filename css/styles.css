@@ -1,0 +1,86 @@
+body{
+    background: black;
+}
+#logo{
+   width: 50px;
+   border-radius: 100px;
+}
+.h1-titulo{
+    color :white;
+    text-align:left;
+    font-size :140px;
+    font-weight:400;
+    padding-inline-start: 90px;  
+    max-width:500px; 
+    height: 300px;
+}
+
+header img {
+    margin-top:20px;
+  margin-left: 20px;
+  position: fixed;
+
+}
+header nav {
+    float: right;
+    margin-top:30px;  
+    
+}
+header nav a {
+margin-left:30px;
+font-size:20px;
+margin-right: 40px;
+text-decoration: none;
+color: white;
+
+}
+a:hover{
+text-decoration: underline;
+}
+.sociales a{
+   color:white;
+}
+.sociales a i {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.container{
+    width: 1000px;
+    display: flex;
+    height: 360px;
+    margin-top:0; 
+}
+.sociales{
+    width: 40px;
+    margin-top: 200px;
+}
+.contenedor {
+	margin: auto;
+    display: table;
+    margin-left:130px;
+}
+
+h1 { 
+	position: relative; 
+	float: left;
+	background:;
+	color: #fff;
+    font-size: 80px;
+   
+}
+h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background:black;
+    border-left: 1px solid #000;
+    animation: escribir 3s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
+
